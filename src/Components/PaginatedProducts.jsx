@@ -2,7 +2,11 @@ import React from "react";
 import { AiFillStar, AiOutlineHeart, AiOutlineCopy, AiOutlineShoppingCart } from "react-icons/ai";
 import { Link } from "react-router-dom";
 export default function PaginatedProducts({ currentItems }) {
-  return (
+  return !currentItems.length ? (
+    <div className="flex justify-center items-center mt-32">
+      <span className="text-xl text-gray-600">No Data</span>
+    </div>
+  ) : (
     <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-2">
       {currentItems &&
         currentItems.map((item, i) => (
@@ -22,6 +26,14 @@ export default function PaginatedProducts({ currentItems }) {
             </a>
 
             <div className="px-3 pb-5">
+              {item.featured && (
+                <div className="flex justify-between items-en">
+                  <span className="text-xs font-bold text-grey-900 text-left px-2 bg-blue-200 rounded-md">
+                    * Featured
+                  </span>
+                </div>
+              )}
+
               <div className="flex justify-between items-start">
                 <Link to={`/product-details/${item.id}`}>
                   <h5 className="text-base text-left font-semibold tracking-tight text-gray-900 dark:text-white">
@@ -53,7 +65,10 @@ export default function PaginatedProducts({ currentItems }) {
                 </span>
               </div>
               <div className="flex items-center justify-start gap-1">
-                <img src={item.thumbnail} className="w-5 h-5 rounded-full z-0" />
+                <img
+                  src={item.thumbnail}
+                  className="w-5 h-5 rounded-full z-0"
+                />
                 <span className="text-xs">Avater Joe's</span>
               </div>
               <div className="flex items-center justify-between">
