@@ -1,6 +1,8 @@
 # Dolami-shop
 # React Project
 ## References
+
+```js
 const getAncestors = (target, children, ancestors = []) => {
   for (let node of children) {
     if (node.id === target) {
@@ -13,5 +15,11 @@ const getAncestors = (target, children, ancestors = []) => {
   }
   return undefined;
 };
- 
+```
 https://stackoverflow.com/questions/72401950/get-all-parents-for-object-in-nested-array-js
+
+
+```sh
+npm install
+npm start
+```
