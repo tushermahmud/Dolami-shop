@@ -2,32 +2,28 @@
 export const seasons = [
   {
     id: 1,
-    name: "Seasons",
+    name: "Full Avater",
     parentId: null,
     children: [
       {
         id: 2,
-        name: "Summer",
+        name: "Human Based",
         parentId: 1,
         children: [
           {
             id: 3,
             parentId: 2,
-            name: "June",
-            children: [
-              { id: 4, name: "tusher", parentId: 3 },
-              { id: 20, name: "abrar", parentId: 3 },
-            ],
+            name: "Male",
           },
           {
             id: 5,
             parentId: 2,
-            name: "July",
+            name: "Female",
           },
           {
             id: 6,
             parentId: 2,
-            name: "August",
+            name: "Unisex",
           },
         ],
       },
@@ -157,7 +153,7 @@ export const allProducts = [
     brand: "Apple",
     featured: false,
 
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle28.png"),
     images: [
       "https://i.dummyjson.com/data/products/2/1.jpg",
       "https://i.dummyjson.com/data/products/2/2.jpg",
@@ -178,7 +174,7 @@ export const allProducts = [
     brand: "Samsung",
     featured: true,
 
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle29.png"),
     images: ["https://i.dummyjson.com/data/products/3/1.jpg"],
   },
   {
@@ -193,7 +189,7 @@ export const allProducts = [
     brand: "OPPO",
     featured: true,
 
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle30.png"),
     images: [
       "https://i.dummyjson.com/data/products/4/1.jpg",
       "https://i.dummyjson.com/data/products/4/2.jpg",
@@ -215,7 +211,7 @@ export const allProducts = [
     category: 3,
     featured: false,
 
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle271.png"),
     images: [
       "https://i.dummyjson.com/data/products/5/1.jpg",
       "https://i.dummyjson.com/data/products/5/2.jpg",
@@ -235,7 +231,7 @@ export const allProducts = [
     category: 2,
     featured: false,
 
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle272.png"),
     images: [
       "https://i.dummyjson.com/data/products/6/1.png",
       "https://i.dummyjson.com/data/products/6/2.jpg",
@@ -253,10 +249,10 @@ export const allProducts = [
     rating: 4.25,
     stock: 50,
     brand: "Samsung",
-    category: 20,
+    category: 3,
     featured: false,
 
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle273.png"),
     images: [
       "https://i.dummyjson.com/data/products/7/1.jpg",
       "https://i.dummyjson.com/data/products/7/2.jpg",
@@ -274,10 +270,10 @@ export const allProducts = [
     rating: 4.43,
     stock: 68,
     brand: "Microsoft Surface",
-    category: 20,
+    category: 3,
     featured: false,
 
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle281.png"),
     images: [
       "https://i.dummyjson.com/data/products/8/1.jpg",
       "https://i.dummyjson.com/data/products/8/2.jpg",
@@ -296,10 +292,10 @@ export const allProducts = [
     rating: 4.54,
     stock: 96,
     brand: "Infinix",
-    category: 20,
+    category: 5,
     featured: false,
 
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle282.png"),
     images: [
       "https://i.dummyjson.com/data/products/9/1.jpg",
       "https://i.dummyjson.com/data/products/9/2.png",
@@ -321,7 +317,7 @@ export const allProducts = [
     category: 8,
     featured: false,
 
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle283.png"),
     images: [
       "https://i.dummyjson.com/data/products/10/1.jpg",
       "https://i.dummyjson.com/data/products/10/2.jpg",
@@ -342,7 +338,7 @@ export const allProducts = [
 
     brand: "Impression of Acqua Di Gio",
     category: 8,
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle291.png"),
     images: [
       "https://i.dummyjson.com/data/products/11/1.jpg",
       "https://i.dummyjson.com/data/products/11/2.jpg",
@@ -362,7 +358,7 @@ export const allProducts = [
     featured: false,
 
     category: 10,
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle292.png"),
     images: [
       "https://i.dummyjson.com/data/products/12/1.jpg",
       "https://i.dummyjson.com/data/products/12/2.jpg",
@@ -384,7 +380,7 @@ export const allProducts = [
     stock: 61,
     brand: "Fog Scent Xpressio",
     category: 10,
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle301.png"),
     images: [
       "https://i.dummyjson.com/data/products/13/1.jpg",
       "https://i.dummyjson.com/data/products/13/2.png",
@@ -406,7 +402,7 @@ export const allProducts = [
     stock: 114,
     brand: "Al Munakh",
     category: 15,
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle302.png"),
     images: [
       "https://i.dummyjson.com/data/products/14/1.jpg",
       "https://i.dummyjson.com/data/products/14/2.jpg",
@@ -449,7 +445,7 @@ export const allProducts = [
     stock: 110,
     brand: "L'Oreal Paris",
     category: 8,
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle29.png"),
     images: [
       "https://i.dummyjson.com/data/products/16/1.png",
       "https://i.dummyjson.com/data/products/16/2.webp",
@@ -471,7 +467,7 @@ export const allProducts = [
     stock: 78,
     brand: "Hemani Tea",
     category: 9,
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle30.png"),
     images: [
       "https://i.dummyjson.com/data/products/17/1.jpg",
       "https://i.dummyjson.com/data/products/17/2.jpg",
@@ -492,7 +488,7 @@ export const allProducts = [
     stock: 88,
     brand: "Dermive",
     category: 10,
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle271.png"),
     images: [
       "https://i.dummyjson.com/data/products/18/1.jpg",
       "https://i.dummyjson.com/data/products/18/2.jpg",
@@ -514,7 +510,7 @@ export const allProducts = [
     stock: 54,
     brand: "ROREC White Rice",
     category: 12,
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle301.png"),
     images: [
       "https://i.dummyjson.com/data/products/19/1.jpg",
       "https://i.dummyjson.com/data/products/19/2.jpg",
@@ -535,7 +531,7 @@ export const allProducts = [
 
     brand: "Fair & Clear",
     category: 11,
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle302.png"),
     images: [
       "https://i.dummyjson.com/data/products/20/1.jpg",
       "https://i.dummyjson.com/data/products/20/2.jpg",
@@ -556,7 +552,7 @@ export const allProducts = [
     stock: 133,
     brand: "Saaf & Khaas",
     category: 10,
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle273.png"),
     images: [
       "https://i.dummyjson.com/data/products/21/1.png",
       "https://i.dummyjson.com/data/products/21/2.jpg",
@@ -575,7 +571,7 @@ export const allProducts = [
     featured: false,
 
     category: 11,
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle272.png"),
     images: [
       "https://i.dummyjson.com/data/products/22/1.jpg",
       "https://i.dummyjson.com/data/products/22/2.jpg",
@@ -593,7 +589,7 @@ export const allProducts = [
     stock: 26,
     brand: "Baking Food Items",
     category: 13,
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle282.png"),
     images: [
       "https://i.dummyjson.com/data/products/23/1.jpg",
       "https://i.dummyjson.com/data/products/23/2.jpg",
@@ -615,7 +611,7 @@ export const allProducts = [
     stock: 113,
     brand: "fauji",
     category: 12,
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle281.png"),
     images: [
       "https://i.dummyjson.com/data/products/24/1.jpg",
       "https://i.dummyjson.com/data/products/24/2.jpg",
@@ -636,7 +632,7 @@ export const allProducts = [
     stock: 47,
     brand: "Dry Rose",
     category: 14,
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle30.png"),
     images: [
       "https://i.dummyjson.com/data/products/25/1.png",
       "https://i.dummyjson.com/data/products/25/2.jpg",
@@ -658,7 +654,7 @@ export const allProducts = [
     stock: 131,
     brand: "Boho Decor",
     category: 16,
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle29.png"),
     images: [
       "https://i.dummyjson.com/data/products/26/1.jpg",
       "https://i.dummyjson.com/data/products/26/2.jpg",
@@ -681,7 +677,7 @@ export const allProducts = [
     stock: 17,
     brand: "Flying Wooden",
     category: 18,
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle291.png"),
     images: [
       "https://i.dummyjson.com/data/products/27/1.jpg",
       "https://i.dummyjson.com/data/products/27/2.jpg",
@@ -703,7 +699,7 @@ export const allProducts = [
     stock: 54,
     brand: "LED Lights",
     category: 19,
-    thumbnail: require("./assets/Rectangle27.png"),
+    thumbnail: require("./assets/Rectangle283.png"),
     images: [
       "https://i.dummyjson.com/data/products/28/1.jpg",
       "https://i.dummyjson.com/data/products/28/2.jpg",
@@ -724,7 +720,7 @@ export const allProducts = [
 
     stock: 7,
     brand: "luxury palace",
-    category: 20,
+    category: 3,
     thumbnail: require("./assets/Rectangle27.png"),
     images: [
       "https://i.dummyjson.com/data/products/29/1.jpg",
