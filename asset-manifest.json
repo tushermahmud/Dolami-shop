@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Dolami-shop.github.io/static/css/main.78ef4eb4.css",
-    "main.js": "/Dolami-shop.github.io/static/js/main.8dc2b5f4.js",
-    "static/js/787.a526e8cd.chunk.js": "/Dolami-shop.github.io/static/js/787.a526e8cd.chunk.js",
-    "static/media/Rectangle27.png": "/Dolami-shop.github.io/static/media/Rectangle27.e6b8b5afa282529709cf.png",
-    "index.html": "/Dolami-shop.github.io/index.html",
-    "main.78ef4eb4.css.map": "/Dolami-shop.github.io/static/css/main.78ef4eb4.css.map",
-    "main.8dc2b5f4.js.map": "/Dolami-shop.github.io/static/js/main.8dc2b5f4.js.map",
-    "787.a526e8cd.chunk.js.map": "/Dolami-shop.github.io/static/js/787.a526e8cd.chunk.js.map"
+    "main.css": "/Dolami-shop/static/css/main.78ef4eb4.css",
+    "main.js": "/Dolami-shop/static/js/main.9dedb2e5.js",
+    "static/js/787.a526e8cd.chunk.js": "/Dolami-shop/static/js/787.a526e8cd.chunk.js",
+    "static/media/Rectangle27.png": "/Dolami-shop/static/media/Rectangle27.e6b8b5afa282529709cf.png",
+    "index.html": "/Dolami-shop/index.html",
+    "main.78ef4eb4.css.map": "/Dolami-shop/static/css/main.78ef4eb4.css.map",
+    "main.9dedb2e5.js.map": "/Dolami-shop/static/js/main.9dedb2e5.js.map",
+    "787.a526e8cd.chunk.js.map": "/Dolami-shop/static/js/787.a526e8cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78ef4eb4.css",
-    "static/js/main.8dc2b5f4.js"
+    "static/js/main.9dedb2e5.js"
   ]
 }
