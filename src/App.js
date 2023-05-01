@@ -4,7 +4,7 @@ import Sidebar from './Layouts/Sidebar';
 import Main from "./Layouts/Main";
 import { allProducts } from './sampleData';
 import React,{Fragment, useState} from 'react';
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import ProductDetails from './pages/ProductDetails';
 function App() {
   const [productList, setProductsList] = useState(allProducts);
